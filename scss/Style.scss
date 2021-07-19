@@ -1,31 +1,38 @@
 @import "style-reset";
+@import "header";
 @font-face {
-  font-family: 'OpenSans';
+  font-family: 'SourceSansPro';
   font-weight: 700;
   src: url('../fonts/SourceSansPro-Bold.ttf') format("opentype"); /* IE9 Compat Modes */
   src: url('../fonts/SourceSansPro-Bold.ttf') format("truetype");
 }
 @font-face {
-  font-family: 'OpenSans';
+  font-family: 'SourceSansPro';
   font-weight: 600;
   src: url('../fonts/SourceSansPro-SemiBold.ttf') format("opentype"); /* IE9 Compat Modes */
   src: url('../fonts/SourceSansPro-SemiBold.ttf') format("truetype");
 }
 @font-face {
-  font-family: 'OpenSans';
+  font-family: 'SourceSansPro';
   font-weight: 400;
   src: url('../fonts/SourceSansPro-Regular.ttf') format("opentype"); /* IE9 Compat Modes */
   src: url('../fonts/SourceSansPro-Regular.ttf') format("truetype");
 }
 @font-face {
-  font-family: 'OpenSans';
+  font-family: 'SourceSansPro';
   font-weight: 300;
   src: url('../fonts/SourceSansPro-Light.ttf') format("opentype"); /* IE9 Compat Modes */
   src: url('../fonts/SourceSansPro-Light.ttf') format("truetype");
 }
 @font-face {
-  font-family: 'OpenSans';
+  font-family: 'SourceSansPro';
   font-style: italic;
   src: url('../fonts/SourceSansPro-Italic.ttf') format("opentype"); /* IE9 Compat Modes */
   src: url('../fonts/SourceSansPro-Italic.ttf') format("truetype");
+}
+body{
+  font-family: SourceSansPro;
+}
+.qqq{
+  margin: 100px 0 0 700px;
 }
